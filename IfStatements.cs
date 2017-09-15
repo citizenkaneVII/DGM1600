@@ -20,8 +20,7 @@ public class IfStatements : MonoBehaviour
     
     
 /* 
-Else if statements are somewhere between if statements and else statements.  Usually their placed between the first possible
-condition and the last possible condition.  It's possible to have multiple Else if statements.*/
+Such fuctions are useful, not just for printing to the console.  Possibilities include everything from a player's input, to enemy AI.*/
 
     void TemperatureTest ()
     {
