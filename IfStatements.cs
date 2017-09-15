@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/* In the following example provided by Unity3d.com, we are given conditions.  If a condition is met, then an action will be performed.
- */
 
 public class IfStatements : MonoBehaviour
 {
@@ -22,9 +20,9 @@ public class IfStatements : MonoBehaviour
     
     
 /* 
-In this coffee example, the program needs to perform an function based on the tempeture of the coffee.  If the coffee is too hot,
-then the program, based on our instructions, will write out the line, the "Coffee is too hot." in the console.  Why?  Because that's
-what we told it to do.*/
+Else statements provides an alternate path for the program to take if the conditions for any previous statement is not met.  
+In this case, if the coffee is niether too hot nor too cold, then the program will know to print "Coffee is just write." to the console.
+*/
 
     void TemperatureTest ()
     {
