@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/*If statements inform our program what to do based on what conditions
+/*"If statements" inform our program what to do based on what conditions we're presented with.
  */
 
 public class ifStatement : MonoBehaviour {
