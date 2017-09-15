@@ -21,6 +21,11 @@ public class IfStatements : MonoBehaviour
     }
     
     
+/* 
+In this coffee example, the program needs to perform an function based on the tempeture of the coffee.  If the coffee is too hot,
+then the program, based on our instructions, will write out the line, the "Coffee is too hot." in the console.  Why?  Because that's
+what we told it to do.*/
+
     void TemperatureTest ()
     {
         // If the coffee's temperature is greater than the hottest drinking temperature...
