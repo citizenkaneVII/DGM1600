@@ -2,30 +2,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/*"If statements" inform our program what to do based on what conditions we're presented with.
+/* In the following example provided by Unity3d.com, we are given conditions.  If a condition is met, then an action will be performed.
  */
 
-public class ifStatement : MonoBehaviour {
+public class IfStatements : MonoBehaviour
+{
+    float coffeeTemperature = 85.0f;
+    float hotLimitTemperature = 70.0f;
+    float coldLimitTemperature = 40.0f;
+    
 
-	public Text input;
-
-	public bool canPlayGame = false;
-	public string password = "G@am3Pl@y";
-
-	void Update () {
-		if(input.text == password) {
-			print("You know the password.");
-			canPlayGame = true;
-		} 
-        else {
-			print("The password is incorrect.");
-		}
-
-		if(canPlayGame) {
-			print("Playing Game");
-		}	
-        else {
-			print("Can't Play Yet, Enter a Correct Password.");
-		}
-	}
+    void Update ()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+            TemperatureTest();
+        
+        coffeeTemperature -= Time.deltaTime * 5f;
+    }
+    
+    
+    void TemperatureTest ()
+    {
+        // If the coffee's temperature is greater than the hottest drinking temperature...
+        if(coffeeTemperature > hotLimitTemperature)
+        {
+            // ... do this.
+            print("Coffee is too hot.");
+        }
+        // If it isn't, but the coffee temperature is less than the coldest drinking temperature...
+        else if(coffeeTemperature < coldLimitTemperature)
+        {
+            // ... do this.
+            print("Coffee is too cold.");
+        }
+        // If it is neither of those then...
+        else
+        {
+            // ... do this.
+            print("Coffee is just right.");
+        }
+    }
 }
