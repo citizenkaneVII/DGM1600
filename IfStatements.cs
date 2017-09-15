@@ -20,9 +20,8 @@ public class IfStatements : MonoBehaviour
     
     
 /* 
-Else statements provides an alternate path for the program to take if the conditions for any previous statement is not met.  
-In this case, if the coffee is niether too hot nor too cold, then the program will know to print "Coffee is just write." to the console.
-*/
+Else if statements are somewhere between if statements and else statements.  Usually their placed between the first possible
+condition and the last possible condition.  It's possible to have multiple Else if statements.*/
 
     void TemperatureTest ()
     {
