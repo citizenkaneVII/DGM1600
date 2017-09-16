@@ -1,19 +1,29 @@
 /*Further examples.*/
 
 
-if (Boolean-expression)
+using System;
+
+namespace CodeStudies
 {
-	statement1;
-	statement2;
-	statement3;
-	// ...
-	statementN;
-}
-else
-{
-	statementA;
-	statementB;
-	statementC;
-	// ...
-	statementN;
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int linesOfCodeWritten = 75;
+
+            if (linesOfCodeWritten <= 25)
+            {
+                Console.WriteLine("Not too bad; less code can certainly be more.");
+            }
+            else
+            {
+                Console.WriteLine("You added more than 25 lines of code to the project.");
+
+                if (linesOfCodeWritten > 500)
+                {
+                    Console.WriteLine("Working hard on some kind of new feature?");
+                }
+            }
+        }
+    }
 }
