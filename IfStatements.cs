@@ -1,5 +1,5 @@
-/*If a equels 10, "Value of a is 10" will be printed to the console.  A == 20 and a == 30 will write "value of a is 20" and "Value of a is 30"
-respectively. */
+/*But if a is not equel to 10, 20 or 30, that means none of the conditions are true, and as a result, the last option, the else condtion will
+perform it's associated function, printing "None of the values is matching". */
 
 
 using System;
