@@ -1,6 +1,5 @@
-/*The Following are multple if/else statements I made when constructing a prision escape game.  Each if/else statement is triggered
-by the player inputting a key choice that represents an action.  In the first state, we have three choices to pick from, all opporating on ifs
-or else ifs.  Each one will enable us to go to a different state which will provide even more choices provided by if/else statements.*/
+/*Else statements provide an alternative to if statements.  If an if statement condition cannot be met, then there has to be something
+else the program can do, otherwise, the program crashes.*/
 
 
 
