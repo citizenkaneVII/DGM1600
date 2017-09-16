@@ -1,61 +1,19 @@
-/*Here is another example of else if statements working in a program. */
+/*The Else clause on the other hand functions as a catch all for everthing else.  In other words, if all else fails, do this. */
 
 
-
-using UnityEngine;
-using System.Collections;
-
-public class NumberWizards : MonoBehaviour {
-
-	// Use this for initialization
-	int max;
-	int min;
-	int guess;
-	
-	
-	void Start () {
-		StartGame ();
-		
-	}
-	
-	void StartGame (){
-		max = 1000;
-		min = 1;
-		guess = 500;
-		max = max + 1;
-		
-		print ("========================");
-		print ("Welcome to Number Wizard");
-		print ("Pick a number in your head, but don't tell me!");
-		
-		print ("The highest number you can pick is 1000");
-		print ("The lowest number you can pick is " + min);
-		
-		print ("Is the number higher or lower than " + guess + "?");
-		print ("Up = higher, Down = lower, Enter = equal");
-	}
-	
-	
-	
-	// Update is called once per frame
-	void Update (){ 
-		if(Input.GetKeyDown(KeyCode.UpArrow)) {
-			print("Up arrow pressed");
-			min = guess;
-			NextGuess();
-		}else if(Input.GetKeyDown(KeyCode.DownArrow)) {
-				print("Down arrow pressed");
-				max = guess;
-				NextGuess ();
-		}else if(Input.GetKeyDown(KeyCode.Return)) {
-			print("I won!");
-			StartGame ();
-			
-		}
-	}
-	
-	void NextGuess(){
-		guess = (max + min) /2;
-		print ("Higher or lower than " + guess);
-	}
+if(boolean_expression 1)
+{
+   /* Executes when the boolean expression 1 is true */
+}
+else if( boolean_expression 2)
+{
+   /* Executes when the boolean expression 2 is true */
+}
+else if( boolean_expression 3)
+{
+   /* Executes when the boolean expression 3 is true */
+}
+else 
+{
+   /* executes when the none of the above condition is true */
 }
