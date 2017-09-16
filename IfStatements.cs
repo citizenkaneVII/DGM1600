@@ -1,4 +1,5 @@
-/*In this example, we have three possibilities that can occur before the else clause fuction is activated. */
+/*If a equels 10, "Value of a is 10" will be printed to the console.  A == 20 and a == 30 will write "value of a is 20" and "Value of a is 30"
+respectively. */
 
 
 using System;
