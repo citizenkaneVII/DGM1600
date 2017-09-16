@@ -1,5 +1,4 @@
-/*Else statements provide an alternative to if statements.  If an if statement condition cannot be met, then there has to be something
-else the program can do, otherwise, the program crashes.*/
+/*There are to variations on this.  The Else clasue and the Else If clause.*/
 
 
 
