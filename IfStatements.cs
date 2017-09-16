@@ -1,4 +1,5 @@
-/*There are to variations on this.  The Else clasue and the Else If clause.*/
+/*Else if means if a different condition is met that isn't the if statement, it will perform the function associated with that
+else if statement. */
 
 
 
