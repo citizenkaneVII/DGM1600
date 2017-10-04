@@ -30,3 +30,6 @@ public class RunGame : MonoBehaviour {
 		health -= 0.01f;
 	}
 }
+
+/* the text in green including the words you are currently reading right now are comments.  They are seperate from
+the code, and help us to know what the code does. */
