@@ -32,4 +32,7 @@ public class RunGame : MonoBehaviour {
 }
 
 /* the text in green including the words you are currently reading right now are comments.  They are seperate from
-the code, and help us to know what the code does. */
+the code, and help us to know what the code does.
+
+Two ways of declaring code is (//) and (/* */)
+ */
