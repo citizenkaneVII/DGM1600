@@ -8,3 +8,7 @@ The opporators used are:
 % modulus/to find remainder
 
  */
+
+ // to start out, addition:
+
+ 
