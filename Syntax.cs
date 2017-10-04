@@ -38,5 +38,20 @@ Two ways of declaring code is (//) and (/*)
  
  
  The first // will reserve one line for comments.  Upon pressing the enter/return key, the line will end
- and code will be written.*/
+ and code will be written.  Example:*/
 
+
+    // Update is called once per frame
+    void Update () {
+		if (toggle.isOn)
+		{
+			print("Play Game");
+		} else {
+			print("Can't Play.");
+		}
+
+    }
+
+/* If we need more then a line to describe a line of code, we use /* .  This allows us to write as many words,
+or even paragraphs about the functions that follow.   They always have a closing symbol, as seen at the end of this.
+paragraph.*/
