@@ -110,5 +110,35 @@ public class InputsStandard : MonoBehaviour {
 
 /* Usually, the closing braces will be on a line just below the final line of the function, lined up with the
 opening of the function.  This lets us know that there is no more code beyond that applies to this specific
-function. */
+function. 
+
+On occasion, alternate forms of syntax can be used, but rarely is that needed.  The following is a list of objects
+I created for a text based adventure.  I will admit that there are better ways of accomplishing what I did here.*/
+
+// Update is called once per frame
+	void Update () {
+		print (myState);
+		if (myState == States.cell) 				{state_cell ();} 
+		else if (myState == States.sheets_0)		{state_sheets_0();} 
+		else if (myState == States.lock_0) 			{state_lock_0();}
+		else if (myState == States.mirror)			{state_mirror ();}
+		else if (myState == States.cell_mirror)		{state_cell_mirror ();}
+		else if (myState == States.sheets_1)		{state_sheets_1 ();}
+		else if (myState == States.lock_1)			{state_lock_1 ();}
+		else if (myState == States.freedom)			{state_freedom ();}
+		else if (myState == States.corridor_0)		{state_corridor_0 ();}
+		else if (myState == States.corridor_1)		{state_corridor_1 ();}	
+		else if (myState == States.corridor_2)		{state_corridor_2 ();}	
+		else if (myState == States.corridor_3)		{state_corridor_3 ();}	
+		else if (myState == States.stairs_0)		{state_stairs_0 ();}	
+	
+		else if (myState == States.stairs_2)		{state_stairs_2 ();}	
+		else if (myState == States.floor)			{state_floor ();}		
+		else if (myState == States.closet_door)		{state_closet_door ();}	
+		else if (myState == States.in_closet)		{state_in_closet ();}	
+		else if (myState == States.courtyard)		{state_courtyard ();}	
+		}
+
+/*Instead of normal syntax, I opted to use something different to help me keep track of which statements led to
+which states. */
 
