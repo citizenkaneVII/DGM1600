@@ -142,3 +142,18 @@ I created for a text based adventure.  I will admit that there are better ways o
 /*Instead of normal syntax, I opted to use something different to help me keep track of which statements led to
 which states. */
 
+/*Another important thing in syntax is the dot operator. */
+
+public class InputsCharacter : InputsStandard {
+
+	// Use this for initialization
+	void Update () {
+		StandardInput(KeyCode.LeftArrow, Vector3.left);
+		StandardInput(KeyCode.RightArrow, Vector3.right);
+	}
+
+}
+
+/* The dot operator is used when we call upon something in a directory.  In the example above, LeftArrow
+is a part of KeyCode. */
+
