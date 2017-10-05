@@ -12,6 +12,7 @@ The opporators used are:
     A - B = -10
     A * B = 200
     B / A = 2
+    B % A = 0
 
 
  */
