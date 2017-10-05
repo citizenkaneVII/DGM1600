@@ -7,4 +7,9 @@ The opporators used are:
 / to devide/find quotient
 % modulus/to find remainder
 
+
+ 	A + B = 30
+    
+
+
  */
