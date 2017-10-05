@@ -16,6 +16,14 @@ The opporators used are:
 
 There is also ++ and -- which are used in loops.  These will either increse or decrese and interger by 1.
 
+
+++9 == 10
+
+for (i = 0; i < 100; i++){
+   for (j = i; j < 10; j++){
+      some_function(i, j);
+
+
 int a = 6;
 int b = 3;
 int result;
