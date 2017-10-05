@@ -83,3 +83,15 @@ public class StandardMove : MonoBehaviour {
 
 /*In the example above, the first lines of code are at the left of the page.  When we have methods contained
 within a function, we indent them to make it easier for others to know where the function begins and ends */
+
+public class InputsCharacter : InputsStandard {
+
+	// Use this for initialization
+	void Update () {
+		StandardInput(KeyCode.LeftArrow, Vector3.left);
+		StandardInput(KeyCode.RightArrow, Vector3.right);
+	}
+
+}
+
+/* Any functions of functions of functions will of course be treated the same. */
