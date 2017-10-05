@@ -155,5 +155,26 @@ public class InputsCharacter : InputsStandard {
 }
 
 /* The dot operator is used when we call upon something in a directory.  In the example above, LeftArrow
-is a part of KeyCode. */
+is a part of KeyCode. In the example below, in order to get to x in the directory, we need to go through a path
+of information.  Log is found in Debug.  The two are seperated by a period.  x is found in position which is found
+in transform.
+*/
+
+using UnityEngine;
+using System.Collections;
+
+public class BasicSyntax : MonoBehaviour
+{
+    void Start ()
+    {
+        Debug.Log(transform.position.x);
+        
+        if(transform.position.y <= 5f)
+        {
+            Debug.Log ("I'm about to hit the ground!");
+        }
+    }
+}
+
+
 
