@@ -14,6 +14,17 @@ The opporators used are:
     B / A = 2
     B % A = 0
 
+    int a = 6;
+int b = 3;
+int result;
+ 
+result = a + b;         // result = 9
+result = a - b;         // result = 3
+result = a * b;         // result = 18
+result = a / b;         // result = 2
+result = a + b - 1;     // result = 8
+
+
 There is also ++ and -- which are used in loops.  These will either increse or decrese and interger by 1.
 
 
@@ -24,15 +35,7 @@ for (i = 0; i < 100; i++){
       some_function(i, j);
 
 
-int a = 6;
-int b = 3;
-int result;
- 
-result = a + b;         // result = 9
-result = a - b;         // result = 3
-result = a * b;         // result = 18
-result = a / b;         // result = 2
-result = a + b - 1;     // result = 8
+
 
 
  */
