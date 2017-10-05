@@ -11,7 +11,7 @@ The opporators used are:
  	A + B = 30
     A - B = -10
     A * B = 200
-    
+    B / A = 2
 
 
  */
