@@ -58,3 +58,28 @@ paragraph.*/
 
 
 /* Indentation is also important in syntax because it helps keep our code organized.*/
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class StandardMove : MonoBehaviour {
+
+	// Use this for initialization
+	public float speed = 3;
+	CharacterController cc;
+	void Start () {
+		cc = GetComponent<CharacterController>();
+		InputsCharacter.StandardInput += Move;
+	}
+	
+	void Move (KeyCode _i, Vector3 _v) {
+		if (Input.GetKey(_i))
+		{
+			cc.Move(_v*speed*Time.deltaTime);
+		}
+	}
+}
+
+/*In the example above, the first lines of code are at the left of the page.  When we have methods contained
+within a function, we indent them to make it easier for others to know where the function begins and ends */
