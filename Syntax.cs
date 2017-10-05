@@ -53,5 +53,8 @@ Two ways of declaring code is (//) and (/*)
     }
 
 /* If we need more then a line to describe a line of code, we use /* .  This allows us to write as many words,
-or even paragraphs about the functions that follow.   They always have a closing symbol, as seen at the end of this.
+or even paragraphs about the functions that follow.   They always have a closing symbol, as seen at the end of this
 paragraph.*/
+
+
+/* Indentation is also important in syntax because it helps keep our code organized.*/
