@@ -45,5 +45,25 @@ public string[] = {"Aang", "Katara", "Sokka", "Toph", "Zuko", "Suki"};
 
 public string[] teamAvatar= {"Aang", "Katara", "Sokka", "Toph", "Zuko", "Suki"};
 
+//Fun fact: In c#, arrays inherit from an array class.
+//When initiallizing an array, you can do so without declairing if you use the new key word.
+
+int[] array3;
+array3 = new int[] { 1, 3, 5, 7, 9 }; 
+
+//Other examples:
+
+int[] array = new int[5];
+
+string[] stringArray = new string[6];
+
+int[] array1 = new int[] { 1, 3, 5, 7, 9 };
+string[] weekDays = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+
+SomeType[] array4 = new SomeType[10];
+
+
+
+
 
 
