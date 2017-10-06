@@ -13,3 +13,6 @@ string grades = "3";
 sting[] grades = {"5", "7", "3"};
 
 //An array is a fixed number of elements or a particular type.  All of these can have different values.
+
+color [] colors = {Color.red, Color.blue, Color.black, Color.yellow};
+
