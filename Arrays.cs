@@ -20,7 +20,6 @@ Color[] colors = {Color.red, Color.blue, Color.black, Color.yellow};
 int[] hight = {3, 4, 4, 7, 2};
 
 
-
 int[] myIntArray = new int [5];
 void start (){
     myIntArray[0] = 63;
@@ -30,3 +29,5 @@ void start (){
     myIntArray[4] = 99;
 }
 
+
+string[] batPeeps = {"Alfred", "Robin", "Oracle", "Nightwing", "Catwoman", "Gordon",}
