@@ -16,8 +16,11 @@ string[] grades = {"5", "7", "3"};
 
 Color[] colors = {Color.red, Color.blue, Color.black, Color.yellow};
 
+//When declairing an array, it's important to define wether it's public or private.
 
-int[] hight = {3, 4, 4, 7, 2};
+public int[] hight = {3, 4, 4, 7, 2};
+
+//Public will allow you to see the array in the inspector.
 
 
 int[] myIntArray = new int [5];
