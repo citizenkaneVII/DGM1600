@@ -22,4 +22,11 @@ int[] hight = {3, 4, 4, 7, 2};
 
 
 int[] myIntArray = new int [5];
+void start (){
+    myIntArray[0] = 63;
+    myIntArray[1] = 72;
+    myIntArray[2] = 81;
+    myIntArray[3] = 90;
+    myIntArray[4] = 99;
+}
 
