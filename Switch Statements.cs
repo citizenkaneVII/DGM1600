@@ -154,3 +154,20 @@ Here are some other examples.*/
         Console.ReadLine();
 
 
+
+        switch (mark)
+        {
+            case 70:
+                Console.WriteLine(" you are distinction");
+                Console.ReadLine();
+                break;
+            case 60:
+                Console.WriteLine("Average");
+                Console.ReadLine();
+                break;
+            case 50:
+                Console.WriteLine("failed");
+                Console.ReadLine();
+                break;
+        }
+    
