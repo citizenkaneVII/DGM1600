@@ -117,4 +117,23 @@ Here are some other examples.*/
     }
     Output
 
+
+
+    switch(n)       
+    {         
+        case 1:   
+            cost += 25;
+            break;                  
+        case 2:            
+            cost += 25;
+            break;           
+        case 3:            
+            cost += 50;
+            break;         
+        default:            
+            Console.WriteLine("Invalid selection. Please select 1, 2, or 3.");            
+        break;      
+    }
+
+
     
