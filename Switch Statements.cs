@@ -84,3 +84,20 @@ switch includes a break to end the method.  A default condition is provided at t
 in the case that no other condition is met.  This is like the else statement in if statement methods.
 
 Here are some other examples.*/
+
+ string value = "turnip";
+        // ... Switch on the string.
+        switch (value)
+        {
+            case "lettuce":
+                Console.WriteLine("LETTUCE");
+                break;
+            case "squash":
+                Console.WriteLine("SQUASH");
+                break;
+            case "turnip":
+                Console.WriteLine("TURNIP");
+                break;
+        }
+
+        
