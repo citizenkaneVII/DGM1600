@@ -100,4 +100,21 @@ Here are some other examples.*/
                 break;
         }
 
-        
+
+
+    State state = State.Active;
+
+    switch (state)
+    {
+     case State.Active:
+            Console.WriteLine("Active");
+            break;
+        case State.Inactive:
+            Console.WriteLine("Inactive");
+            break;
+        default:
+            throw new Exception(String.Format("Unknown state: {0}", state));
+    }
+    Output
+
+    
