@@ -170,4 +170,37 @@ Here are some other examples.*/
                 Console.ReadLine();
                 break;
         }
+
+
+
+            public List<string> GetSortedData(string searchType, List<string> data)  
+            {  
+                List<string> sortedData = null;  
+         
+                switch (searchType)  
+                {  
+                    case "BubbleSort":  
+                        //Peform Bubble sort and assign to data.  
+                        sortedData = data;  
+                        break;  
+      
+                    case "HeapSort":  
+                        //Peform Heap sort and assign to data.  
+                        sortedData = data;  
+                        break;  
+      
+                    case "MergeSort":  
+                        //Peform Merge sort and assign to data.  
+                        sortedData = data;  
+                        break;  
+      
+                    case "InsertionSort":  
+                        //Peform Insertion sort and assign to data.  
+                        sortedData = data;  
+                        break;  
+                }  
+      
+                return sortedData;  
+            }  
+
     
