@@ -30,6 +30,19 @@ for (variable initialization; condition; steps)
 afterwards, You need to intialize a variable, provide the conditions for the variable to satisfy, and provide the
 steps the loop will take till the condition says they value is false. */
 
+/*In this example,
+    The variable initialization is i = 0
+    The condition is i < 10
+    The steps are i++
+    
+The initialization naturally starts at zero unless defined otherwise.  The condition will then count up from zero
+using the steps we've provided until i no longer is less then 10. */
+
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine("Value of i: {0}", i);
+}
+
 
 /*Loops are bools in the sense that they return a value of true or false.  As long as the method continues to return
 the value of true, the loop will continue to run.  When the value returned is false, the loop ends. */
