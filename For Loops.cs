@@ -190,4 +190,46 @@ class Program
 }
 
 
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        for (int i = 0; i < 10; i += 2)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        for (int i = 10 - 1; i >= 0; i -= 2)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        for (int i = 0; i < (20 / 2); i += 2)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
+
+
 
