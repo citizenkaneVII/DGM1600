@@ -26,14 +26,19 @@ for (variable initialization; condition; steps)
     //execute this code block as long as condition is satisfied 
 }
 
+  for (initializer; Boolean expression; modifier)
+  [{]
+    statement(s)
+  [}]
+
 /*Each for loop contains three parts.  Remember to declair a for loop by writting "for" first.  In the parenthases
 afterwards, You need to intialize a variable, provide the conditions for the variable to satisfy, and provide the
 steps the loop will take till the condition says they value is false. */
 
 /*In this example,
-    The variable initialization is i = 0
-    The condition is i < 10
-    The steps are i++
+    The variable initialization (or intializer) is i = 0
+    The condition (or boolean expression) is i < 10
+    The steps (or modifier) are/is i++
 
 EACH OF THESE MUST HAVE A SEMI-COLON AFTER IT. 
     
@@ -81,4 +86,29 @@ class TriagnelNumbers
 /*When the first for loop runs, the second will also begin to run because it's part of the first for loops's method.
 The second one will run till it returns a value of false, and that will return a value of false to the first for
 loop. */
+
+//These are further examples of for loops.
+
+
+class ForLoopTest 
+{
+    static void Main() 
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
+/*
+Output:
+1
+2
+3
+4
+5
+*/
+
+
+
 
