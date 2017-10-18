@@ -34,6 +34,8 @@ steps the loop will take till the condition says they value is false. */
     The variable initialization is i = 0
     The condition is i < 10
     The steps are i++
+
+EACH OF THESE MUST HAVE A SEMI-COLON AFTER IT. 
     
 The initialization naturally starts at zero unless defined otherwise.  The condition will then count up from zero
 using the steps we've provided until i no longer is less then 10. */
@@ -55,3 +57,28 @@ for (int i = 0; i < 10; i++)
 /*In the example above, as long as the value of i is less then 10, the code will continue to run, from 0 to 9.
 After 9, it will stop printing i because it will be equel to 10.  The method will then return a value of false
 because i is no longer less then 10, but is equel to 10. */
+
+/*A nested for loop is the same thing as a regular for loop, but instead, it resides in another for loop. */
+
+using System;
+ 
+class TriagnelNumbers
+{
+    static void Main()
+    {
+        int n = int.Parse(Console.ReadLine());
+        for (int row = 1; row <= n; row++)
+        {
+            for (int column = 1; column <= row; column++)
+            {
+                Console.Write("{0} ", column);
+            }
+            Console.WriteLine();
+        }
+    }
+}
+
+/*When the first for loop runs, the second will also begin to run because it's part of the first for loops's method.
+The second one will run till it returns a value of false, and that will return a value of false to the first for
+loop. */
+
