@@ -38,7 +38,7 @@ steps the loop will take till the condition says they value is false. */
 /*In this example,
     The variable initialization (or intializer) is i = 0
     The condition (or boolean expression) is i < 10
-    The steps (or modifier) are/is i++
+    The steps (also known as a modifier or a iterator) are/is i++
 
 EACH OF THESE MUST HAVE A SEMI-COLON AFTER IT. 
     
@@ -108,6 +108,30 @@ Output:
 4
 5
 */
+
+
+//Here's some alternate syntax:
+
+static void Main()
+ {
+     int i;
+     int j = 10;
+     for (i = 0, Console.WriteLine("Start: {0}",i); i < j; i++, j--, Console.WriteLine("i={0}, j={1}", i, j))
+     {
+         // Body of the loop.
+     }
+ }
+ // Output:
+ // Start: 0
+ // i=1, j=9
+ // i=2, j=8
+ // i=3, j=7
+ // i=4, j=6
+ // i=5, j=5
+
+
+
+ 
 
 
 
