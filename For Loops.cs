@@ -161,7 +161,33 @@ value of a: 19
  */
 
 
+using System;
 
+class Program
+{
+    static void Main()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        for (int i = 10 - 1; i >= 0; i--)
+        {
+            Console.WriteLine(i);
+        }
+    }
+}
 
 
 
