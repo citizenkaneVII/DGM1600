@@ -17,4 +17,11 @@ public class ForLoop : MonoBehaviour
     }
 }
 
-/**/
+/*Loops are methods that executes statments until a condition is met.*/
+
+//Example:
+
+for (variable initialization; condition; steps)
+{
+    //execute this code block as long as condition is satisfied 
+}
