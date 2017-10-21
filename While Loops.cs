@@ -93,8 +93,24 @@ public static void Main(string[] args)
 		}
 
 
+
 i = 0
 while(i<4){
    Console.WriteLine(i);
    i++;
 }
+
+
+
+ static void Main(string[] args)
+        {
+            int number = 0;
+
+            while(number < 5)
+            {
+                Console.WriteLine(number);
+                number = number + 1;
+            }
+
+            Console.ReadLine();
+        }
