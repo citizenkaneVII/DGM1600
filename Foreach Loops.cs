@@ -175,6 +175,15 @@ public static void Main(string[] args)
             Console.WriteLine("Sum = {0}", sum);
 
 
-
+ int[] intarray = new int[4];
+            intarray[0] = 10; 
+            intarray[1] = 20;
+            intarray[2] = 30;
+            intarray[3] = 40;
+            foreach (int i in intarray)
+            {
+                Console.WriteLine(i); 
+            }
+            Console.ReadLine();
 
 
