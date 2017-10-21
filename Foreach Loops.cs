@@ -112,4 +112,19 @@ foreach(int i in myInterger)
     total += i;
 }
 
+      // Create an array of string type
+      string[] names = {"Jim","Kate","Sam","Sally"};
+      // Store length of names array in variable
+      int arrayLength = names.Length;
+      // Go through each name in names array and display on new line
+      foreach (string name in names) {
+        Console.WriteLine(name);
+      }
+      // Wait for user input before quitting program
+      Console.ReadLine();
+    }
+  }
+
+  
+
 
