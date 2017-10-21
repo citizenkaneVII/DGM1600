@@ -27,12 +27,19 @@ to stop.  In Foreach loops, the method is ran for every element in a collection,
 
 //This is the syntax.
 
-foreach (string name in arr)
- {
- 
- }
+class ForEachSample
+    {
+        static void Main(string[] args)
+        {
+            int[] arrayList = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            foreach (int num in arrayList )
+            {
+                System.Console.WriteLine(num);
+            }
+            System.Console.ReadLine();
+        }
 
-
+    }
 //Here is an example of a Foreach loop.
 
 int[] fibarray = new int[] { 0, 1, 1, 2, 3, 5, 8, 13 };
@@ -76,5 +83,33 @@ write one of those elements in the console.  The output will be: */
 
 //Here are some other examples:
 
+
+static void Main(string[] args)
+        {
+            string[] arr = new string[5]; // declaring array
+ 
+            //Storing value in array element
+            arr[0] = "Steven";
+            arr[1] = "Clark";
+            arr[2] = "Mark";
+            arr[3] = "Thompson";
+            arr[4] = "John";
+ 
+            //retrieving value using foreach loop
+            foreach (string name in arr)
+            {
+                Console.WriteLine("Hello " + name);
+            }
+            Console.ReadLine();
+        }
+
+
+
+int[] myInterger = new int[1];
+int total = 0;
+foreach(int i in myInterger) 
+{
+    total += i;
+}
 
 
