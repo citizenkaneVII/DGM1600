@@ -125,6 +125,15 @@ foreach(int i in myInterger)
     }
   }
 
-  
+  string[] pets = { "dog", "cat", "bird" };
+
+        // ... Loop with the foreach keyword.
+        foreach (string value in pets)
+        {
+            Console.WriteLine(value);
+        }
+
+
+        
 
 
