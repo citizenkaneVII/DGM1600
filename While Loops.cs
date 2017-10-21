@@ -26,10 +26,17 @@ the method will run till the condition is met. */
 
 //The syntax of the While loop is:
 
-while(condition)
+while (true) // Executes forever
 {
-   statement(s);
+    Console.WriteLine("Never Stop!");
 }
+
+
+while (false) // Never executes
+{
+    Console.WriteLine("Never execute");
+}
+
 
 //Here are some examples of while loop code blocks.
 
@@ -144,4 +151,24 @@ while (counter <= 9)
 
         counter++;
 
+}
+
+
+
+bool iNeedMoreCandies = true;
+int candiesCount = 0;
+            
+while (iNeedMoreCandies)
+{
+    Console.WriteLine("One more candy?");
+    
+    string answer = Console.ReadLine();
+    if (answer == "Yes")
+    {
+        candiesCount++;
+    }
+    else
+    {
+        iNeedMoreCandies = false;
+    }
 }
