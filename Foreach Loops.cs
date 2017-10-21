@@ -25,6 +25,15 @@ public class ForeachLoop : MonoBehaviour
 /*Loops are a way of repeating a method.  In for loops, we wrote a condition that had to be met in order for the loop
 to stop.  In Foreach loops, the method is ran for every element in a collection, such as an array. */
 
+//This is the syntax.
+
+foreach (string name in arr)
+ {
+ 
+ }
+
+
+//Here is an example of a Foreach loop.
 
 int[] fibarray = new int[] { 0, 1, 1, 2, 3, 5, 8, 13 };
 foreach (int element in fibarray)
@@ -66,4 +75,6 @@ write one of those elements in the console.  The output will be: */
 //After all the elements are printed to the console, the loop ends.
 
 //Here are some other examples:
+
+
 
