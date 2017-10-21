@@ -112,6 +112,8 @@ foreach(int i in myInterger)
     total += i;
 }
 
+
+
       // Create an array of string type
       string[] names = {"Jim","Kate","Sam","Sally"};
       // Store length of names array in variable
@@ -125,6 +127,8 @@ foreach(int i in myInterger)
     }
   }
 
+
+
   string[] pets = { "dog", "cat", "bird" };
 
         // ... Loop with the foreach keyword.
@@ -134,6 +138,15 @@ foreach(int i in myInterger)
         }
 
 
-        
+
+public static void Main(string[] args)
+        {
+            char[] myArray = {'H','e','l','l','o'};
+ 
+            for(int i = 0; i < myArray.Length; i++)
+            {
+                Console.WriteLine(myArray[i]);
+            }
+        }
 
 
