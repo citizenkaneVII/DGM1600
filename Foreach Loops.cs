@@ -41,3 +41,29 @@ System.Console.WriteLine();
 // 5
 // 8
 // 13
+
+/*In the example above, we are given an array called fibarray.  It has a lot of integers, o, 1, 13, ect.
+The foreach command means that a loop will be run for the condition made, in this case, every element that is
+listed in the array.*/
+
+
+foreach (int element in fibarray)
+{
+    System.Console.WriteLine(element);
+}
+
+/*The un-coded equivelent would be to say "For each element that is an integer in this library (called 'fibarray'),
+write one of those elements in the console.  The output will be: */
+// 0
+// 1
+// 1
+// 2
+// 3
+// 5
+// 8
+// 13
+
+//After all the elements are printed to the console, the loop ends.
+
+//Here are some other examples:
+
