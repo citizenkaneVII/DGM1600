@@ -114,3 +114,12 @@ while(i<4){
 
             Console.ReadLine();
         }
+
+
+
+int myCount = 0;
+
+while ( myCount < 100 )
+{
+      myCount++;
+}
