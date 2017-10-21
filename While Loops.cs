@@ -172,3 +172,12 @@ while (iNeedMoreCandies)
         iNeedMoreCandies = false;
     }
 }
+
+
+
+int repetitions = 10;
+while(repetitions > 0)
+{
+    Console.WriteLine("Print me!");
+    repetitions--;
+}
